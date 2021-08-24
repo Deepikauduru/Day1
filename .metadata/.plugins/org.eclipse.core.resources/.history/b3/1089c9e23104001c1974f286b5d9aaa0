@@ -1,0 +1,13 @@
+package que7;
+import java.util.Scanner;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		Scanner SC=new Scanner(System.in);
+		java.lang.String program=SC.next();
+		java.lang.String program1=SC.next();
+		System.out.println("program1");
+	}
+
+}

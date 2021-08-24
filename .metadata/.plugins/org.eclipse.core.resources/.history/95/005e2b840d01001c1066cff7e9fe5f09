@@ -1,0 +1,15 @@
+package que7;
+import java.util.Scanner;
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a string");
+		String testString;
+		Scanner SC=new Scanner(System.in);
+		testString = SC.next();
+		System.out.println("testString");
+
+	}
+
+}

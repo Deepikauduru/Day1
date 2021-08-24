@@ -1,0 +1,12 @@
+package que7;
+import java.util.Scanner;
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+		char g;
+		System.out.println("Unicode value"+(g));
+
+	}
+
+}

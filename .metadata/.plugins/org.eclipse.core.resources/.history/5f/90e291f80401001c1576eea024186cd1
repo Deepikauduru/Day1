@@ -1,0 +1,13 @@
+package que7;
+
+public class String {
+
+	public static void main(java.lang.String[] args, char Unicodevalue) {
+		// TODO Auto-generated method stub
+		char g;
+		g=Unicodevalue;
+		System.out.printf("Unicode value"+(g));
+
+	}
+
+}

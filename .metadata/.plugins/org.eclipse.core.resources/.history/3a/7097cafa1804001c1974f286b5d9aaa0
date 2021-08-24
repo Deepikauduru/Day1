@@ -1,0 +1,23 @@
+package que4;
+import java.util.Scanner;
+public class FruitSeller {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the price of dozen bannanas");
+		float cp;
+		float sp;
+		
+		Scanner sc=new Scanner(System.in);
+		cp =sc.nextFloat();
+		sp =sc.nextFloat();
+		if(cp>sp){
+			System.out.printf("profit %.2f%n" +(cp-sp));
+		}
+		if(cp<sp){
+			System.out.printf("Loss%.2f%n" +(sp-cp));
+		}
+		
+
+	}
+
+}

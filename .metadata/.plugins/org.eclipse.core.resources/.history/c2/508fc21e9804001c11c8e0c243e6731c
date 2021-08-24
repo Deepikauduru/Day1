@@ -1,0 +1,37 @@
+package que9;
+import java.util.Scanner;
+public class LabIII {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter x");
+		int L1=sc.nextInt();
+		System.out.println("Enter y");
+		int L2=sc.nextInt();
+		System.out.println("Enter z");
+		int L3=sc.nextInt();
+		System.out.println("Enter n");
+		
+		
+
+	}
+
+}int x;
+int l1=x;
+System.out.println("Enter x");
+L1=sc.nextInt();
+int L2=y;
+System.out.println("Enter y");
+L2=sc.nextInt();
+int L3=z;
+System.out.println("Enter z");
+L3=sc.nextInt();
+if(L1<L2){
+	System.out.println("L1 has the minimal seating capacity");
+}
+	
+if(L2<L3){
+	System.out.println("L2 has the minimal seating capacity");
+}
+
+

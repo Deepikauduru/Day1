@@ -1,0 +1,14 @@
+package question2;
+
+public class SwapWithout {
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=20;
+		a=b;
+		b=a;
+		System.out.println("enter a and b");
+
+	}
+
+}

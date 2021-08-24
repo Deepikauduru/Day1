@@ -1,0 +1,14 @@
+package question5;
+import java.util.Scanner;
+public class Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter five values");
+		int a,b,c,d,e; 
+		
+		
+
+	}
+
+}

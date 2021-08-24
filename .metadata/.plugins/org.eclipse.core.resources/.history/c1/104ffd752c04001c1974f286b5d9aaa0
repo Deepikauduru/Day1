@@ -1,0 +1,16 @@
+package que5;
+
+public class FeeCollection {
+
+	public static void main(String[] args) {
+		int t=4000;
+		int b=12000;
+		int h=5000;
+		int fee=t+h;
+		System.out.println(fee);break;
+		double fee=((1.5*t)+h);
+		System.out.println(fee);break;
+			
+		}
+
+	}

@@ -1,0 +1,19 @@
+package que2;
+import java.util.Scanner;
+import java.lang.String;
+public class VowelConstant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a character");
+		String vowels;
+		Scanner sc=new Scanner(System.in);
+		vowels=sc.next();
+		if(vowels){
+			
+		}
+		
+
+	}
+
+}

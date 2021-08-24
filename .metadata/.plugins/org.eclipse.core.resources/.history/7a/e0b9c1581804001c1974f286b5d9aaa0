@@ -1,0 +1,25 @@
+package que4;
+import java.util.Scanner;
+public class FruitSeller {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the price of dozen bannanas");
+		float cp;
+		float sp;
+		
+		Scanner sc=new Scanner(System.in);
+		cp =sc.nextFloat();
+		sp =sc.nextFloat();
+		if(cp>sp){
+			System.out.println("profit" +(.2f));
+		}
+		if(cp<sp){
+			System.out.println("Loss" +(.2f));
+		}
+		System.out.println("Enter the price at which 1 bannanais being sold Profit:" +(cp-sp));
+		System.out.println("Enter the price at which 1 bannanais being sold Profit:" +(sp-cp));
+
+
+	}
+
+}

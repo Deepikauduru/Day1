@@ -1,0 +1,23 @@
+package question6;
+import java.lang.Math;
+import java.util.Scanner;
+
+public class AreaCalculation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Side of a square");
+		int Area;
+		int a=4;
+		int n=2;
+		Area =(a^n);
+		System.out.println("Side of a square");
+		Scanner sc=new Scanner("System.in");
+		a=sc.nextInt();
+		n=sc.nextInt();
+		
+	
+
+	}
+
+}

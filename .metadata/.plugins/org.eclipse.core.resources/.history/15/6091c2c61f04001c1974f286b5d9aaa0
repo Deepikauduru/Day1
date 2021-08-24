@@ -1,0 +1,19 @@
+package que5;
+
+public class FeeCollection {
+
+	public static void main(String[] args) {
+		Switch (name);
+		{
+			Case "MSDS";
+			case "MSH";
+			case "MGSDS";
+			case "MGSH";
+			int fee=t+h;
+			
+			
+		}
+
+	}
+
+}

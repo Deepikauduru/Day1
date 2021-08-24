@@ -1,0 +1,13 @@
+package que13;
+
+import java.util.Scanner;
+
+public class Hotel {
+
+	public static void main(String[] args) {
+		float s;
+		float d;
+		float t;
+	}
+
+}

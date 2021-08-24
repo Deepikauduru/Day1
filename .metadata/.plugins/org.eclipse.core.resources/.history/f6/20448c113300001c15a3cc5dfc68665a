@@ -1,0 +1,22 @@
+package question2;
+import java.util.Scanner;
+
+public class Swapping {
+
+	private static Object sc;
+
+	public static void main(String[] args) {
+		System.out.println("Swap two numbers");
+		int a;
+		int b;
+		Scanner.sc = new Scanner(System.in);
+		a=sc.nextInt();
+		b=sc.nextInt();
+		System.out.println(+(a));
+		System.out.println(+(b));
+		
+		
+
+	}
+
+}

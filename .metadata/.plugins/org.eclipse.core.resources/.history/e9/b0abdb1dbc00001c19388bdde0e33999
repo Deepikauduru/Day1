@@ -1,0 +1,18 @@
+package question4;
+import java.lang.Math;
+import java.util.Scanner;
+
+public class AreaCalculation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Side of a square");
+		int Area;
+		int a;
+		int n;
+		Scanner sc=new Scanner("System.in");
+		int result
+
+	}
+
+}

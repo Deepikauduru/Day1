@@ -1,0 +1,24 @@
+package que11;
+import java.util.Scanner;
+
+public class Seat1 {
+
+	public static void main(String[] args) {
+		int r;
+		int c;
+		int s;
+		Scanner sc=new Scanner(System.in);
+		r=sc.nextInt();
+		c=sc.nextInt();
+		s=sc.nextInt();
+		if(s%c==0||s%c==1||s<=c){
+			System.out.println("yes");
+		}
+			else{
+	    		 System.out.println("no");
+	    	}
+	    	
+		
+	}
+
+}

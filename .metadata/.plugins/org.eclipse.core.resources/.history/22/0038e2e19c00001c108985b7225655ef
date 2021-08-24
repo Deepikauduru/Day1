@@ -1,0 +1,20 @@
+package question2;
+
+public class Average {
+
+	public static void main(String[] args) {
+		int a,b,c,d,e,sum,Avg;
+		a=5;b=10;c=15;d=20;e=25;
+		sum=a+b+c+d+e;
+		Avg=(sum/2);
+		System.out.println("Avg");
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

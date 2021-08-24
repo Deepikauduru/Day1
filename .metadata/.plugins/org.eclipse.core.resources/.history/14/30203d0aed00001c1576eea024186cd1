@@ -1,0 +1,16 @@
+package question7;
+
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int A=15000;
+		int t=2;
+		double r=2.8;
+		int p;
+		System.out.println("SimpleInterest:" +A = P(1+r*t));
+
+	}
+
+
+}

@@ -1,0 +1,33 @@
+package question6;
+import java.lang.Math;
+import java.util.Scanner;
+
+public class AreaCalculation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("side of a Square");
+		int Area;
+		int a=4;//side of the square
+		int n=2;
+		Area=(a^n);
+		
+		System.out.println("Length and width of a Rectangle");
+		int l=3;
+		int w=6;
+		Area=l*w;
+		
+		System.out.println("Radius of Circle");
+		float pi;
+		int r;
+		Scanner sc=new Scanner("System.in");
+		r=sc.nextInt();
+		n=sc.nextInt();
+		pi=sc.nextFloat();
+		double result=Math.pow(r,n);
+		System.out.println("result");
+	
+
+	}
+
+}

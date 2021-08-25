@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class labII {
 
 	public static void main(String[] args) {
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter x");
 		int L1=sc.nextInt();
@@ -22,19 +23,19 @@ public class labII {
 		}
 		}
 		else if(ace=="L2"){
-		if(L3<L1){
-			System.out.println("l3 has the minimal seating capacity");
+		if(L1<L3){
+			System.out.println("l1 has the minimal seating capacity");
 		}
 		else{
-			 System.out.println("l1 has the minimal seating capacity");
+			 System.out.println("l3 has the minimal seating capacity");
 		}
 		}
 		else if(ace=="L3"){
-		if(L2>L1){
-			System.out.println("l2 has the minimal seating capacity");
+		if(L1<L2){
+			System.out.println("l1 has the minimal seating capacity");
 		}
 		else{
-			System.out.println("l3 has the minimal seating capacity");
+			System.out.println("l2 has the minimal seating capacity");
 		}
 		}
 	}

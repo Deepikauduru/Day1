@@ -1,0 +1,27 @@
+package que13;
+
+import java.util.Scanner;
+
+public class P2 {
+
+	public static void main(String[] args) {
+		float s,d,t;
+		Scanner sc=new Scanner(System.in);
+		s=sc.nextFloat();
+		System.out.print("speed");
+		d=sc.nextFloat();
+		System.out.print("distance");
+		t=sc.nextFloat();
+		System.out.print("time");
+		if((s<t)||((s>t)&&(d>1))){
+			System.out.println("no");
+		}
+			else{
+				System.out.println("yes");
+				
+		}
+
+		
+	}
+
+}

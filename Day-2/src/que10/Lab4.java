@@ -14,8 +14,21 @@ public class Lab4 {
 		int L3=sc.nextInt();
 	    System.out.println("Enter n");
 	    int n=sc.nextInt();
-	    	if( L1>n|| L2>n|| L3>n){
+	    	if( L1>n){
 	    		 System.out.println(" L1 can  accomodate  students");
+	    	}
+	    	else{
+	    		 System.out.println("none of the labs can  accomodate 25 students");
+	    	}
+	    	if(L2>n){
+	    		 System.out.println(" L2 can  accomodate  students");
+	    	}
+	    	
+	    	else{
+	    		 System.out.println("none of the labs can  accomodate 25 students");
+	    	}
+	    	if(L3>n){
+	    		 System.out.println(" L3 can  accomodate  students");
 	    	}
 	    	
 	    	else{
